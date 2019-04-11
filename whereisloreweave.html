@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-div {
+#myBox {
 	width: 59px;
 	height: 59px;
 	border: 5px solid gray;
@@ -11,7 +11,15 @@ div {
 </head>	
 <body>
 <h2>Find the rare ring amongst the unique rings!</h2>
+<div id="myBox"> </div>
+<span id="myBox"> </span>
+<div> </div>
 <div> </div>
 
 </body> 
+  <script>
+    document.getElementById("myBox").addEventListener("click", function(){
+  alert("You found the rare ring!");
+});
+  </script>
 </html>
